@@ -7,7 +7,7 @@
 import socket
 
 # Client info
-PORT = 6423
+PORT = 8080 # IP 6423 when it works
 SERVER = "25.9.167.17"
 ADDR = (SERVER, PORT)
 

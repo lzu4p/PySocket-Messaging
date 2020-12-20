@@ -13,7 +13,7 @@ import socket
 import threading
 
 # Server info
-PORT = 6423
+PORT = 8080 # IP 6423 when it works
 SERVER_IP = socket.gethostbyname(socket.gethostname())
 ADDR = (SERVER_IP, PORT)
 
